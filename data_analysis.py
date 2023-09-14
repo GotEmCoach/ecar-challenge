@@ -3,7 +3,6 @@ import re
 from collections import Counter
 from json import dumps
 from ipaddress import IPv4Address, IPv6Address, AddressValueError
-from typing import Union
 
 ACTION_PAT = re.compile(r'["]action["]:["]([A-Z]+)["]')
 SRC_IP_PAT = re.compile(r'["]src_ip["]:["](.+?)["]')
