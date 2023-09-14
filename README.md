@@ -35,10 +35,22 @@ The solution PR should consist of the following:
 
 ## Solution
 
+Solution was a combination of utilizing python's builtin modules of regex, collections.Counter, and ipaddress to perform the tasks at hand.
+
 ### Installation
 
-Insert your installation instructions here.
+Installation is easy, simply make sure that you have python3 installed and it's version is 3.7 or higher
+`sudo apt install python3`
+
+for other non Debian based systems go to the site[https://www.python.org/downloads/] for installation instructions
+
+Navigate to the base directory for this repo (ecar-challenge).
+Make sure that you have execute permission on data_analysis.py.
+To check run `ls -latr`
+if not run `chmod +x data_analysis.py`
 
 ### Execution
 
-Insert your execution instructions here.
+Simply run `./data_analysis.py` or `python3 data_analysis.py` to obtain the solution
+
+
