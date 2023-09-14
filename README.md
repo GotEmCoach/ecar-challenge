@@ -10,15 +10,17 @@ Answer the following questions based on the data provided in `data.json`:
 1. How many unique `"action"` values are there?
 2. List the number of occurrences of each `"action"` value in the sample data.
 3. Give a breakdown on how many `"src_ip"`s are IPv4 vs IPv6. (Hint: you may
-   need to also keep track of cases where this does not apply)
+   need to also keep track of cases where this does not apply for cases of
+   missing or invalid data)
 4. How many records are there with the `"dest_ip"` in the 224.0.0.0/8 subnet.
 
-Print statements when executing the solution are sufficient for answering
-the above questions, but be sure they are clearly labeled.
+Answers should be printed to standard output when running your solution program.
+Be sure each question response is clearly labeled.
 
 ## Submission
 
-Submit a GitHub Pull Request (PR) to this repository containing your solution.
+Fork this repository for your own work, and submit a GitHub Pull Request (PR)
+to this repository containing your solution.
 The solution PR should consist of the following:
 
 1. Source code containing the solution
